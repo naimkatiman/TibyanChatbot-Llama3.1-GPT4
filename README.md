@@ -66,7 +66,3 @@ streamlit run llama3_chat.py
 
 > **Note:** Keep your API key confidential and do not share it publicly.
 
----
-
-
-Please ensure to upload the actual images (`screenshot.png` and `another_image_or_logo.png`) to the `assets` directory in your repository. If you have specific images you would like to use, please upload them, and I can assist you with incorporating them correctly.
