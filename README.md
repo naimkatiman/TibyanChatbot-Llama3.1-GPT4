@@ -1,8 +1,7 @@
 
 ```markdown
 # LLM-Chatbot-Tibyan Everything
-
-![Chatbot Screenshot](assets/screenshot.png)
+```
 
 This is a simple chatbot built with Llama 3.1 405B.
 
@@ -72,10 +71,5 @@ streamlit run llama3_chat.py
 ---
 
 Feel free to contact us if you have any questions or need further assistance!
-
----
-
-![Tibyan AI](assets/tibyanlogo.png)
-```
 
 Please ensure to upload the actual images (`screenshot.png` and `another_image_or_logo.png`) to the `assets` directory in your repository. If you have specific images you would like to use, please upload them, and I can assist you with incorporating them correctly.
