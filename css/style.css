@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.stApp {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #555;
+}
+
+.logo {
+    max-width: 150px;
+    margin-top: 1rem;
+}
+
+.chat-message {
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.animate-text {
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes rotateIn {
+    from { transform: rotate(-10deg); opacity: 0; }
+    to { transform: rotate(0); opacity: 1; }
+}
+
+.animate-logo {
+    animation: rotateIn 1s ease-in-out;
+}
+
