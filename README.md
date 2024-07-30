@@ -1,7 +1,5 @@
-```markdown
-# LLM-Chatbot-Tibyan Everything
 
-![Chatbot Screenshot](assets/screenshot.png)
+# LLM-Chatbot-Tibyan Everything
 
 This is a simple chatbot built with Llama 3.1 405B.
 
