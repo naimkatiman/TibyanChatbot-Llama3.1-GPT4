@@ -1,3 +1,5 @@
+import os
+from dotenv import load_dotenv
 import streamlit as st
 from streamlit_chat import message
 from langchain_openai import ChatOpenAI
@@ -5,24 +7,21 @@ from langchain.chains import ConversationChain
 from langchain.chains.conversation.memory import ConversationBufferWindowMemory
 from streamlit_extras.add_vertical_space import add_vertical_space
 
-import os
+# Load environment variables from .env file
+load_dotenv()
+
+# Get API keys from environment variables
+openai_api_key = os.getenv('OPENAI_API_KEY')
+fireworks_api_key = os.getenv('FIREWORKS_API_KEY')
 
 st.subheader("Llama 3.1 405B Chatbot")
 
-st.markdown("Built by [Build Fast with AI](https://www.buildfastwithai.com/genai-course)")
 
 with st.sidebar:
     st.title("Llama 3.1 405B Chatbot")
     st.subheader("This app lets you chat with Llama 3.1 405B! [👉]")
-    api_key = st.text_input("Enter your Fireworks API Key", type="password")
-    add_vertical_space(2)
-    st.markdown("""
-    Want to lean how to build this? 
-   
-    Join [GenAI Course](https://www.buildfastwithai.com/genai-course) by Build Fast with AI!
-    """)
-    add_vertical_space(3)
-    st.write("Reach out to me on [LinkedIn](https://www.linkedin.com/in/satvik-paramkusham)")
+    api_key = st.text_input("Enter your Fireworks API Key", type="password", value=fireworks_api_key)
+    
 
 
 # Initialize session state variables
