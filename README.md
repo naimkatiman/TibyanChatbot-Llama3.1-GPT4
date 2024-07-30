@@ -68,11 +68,5 @@ streamlit run llama3_chat.py
 
 ---
 
-Feel free to contact us if you have any questions or need further assistance!
-
----
-
-![Tibyan AI](assets/another_image_or_logo.png)
-```
 
 Please ensure to upload the actual images (`screenshot.png` and `another_image_or_logo.png`) to the `assets` directory in your repository. If you have specific images you would like to use, please upload them, and I can assist you with incorporating them correctly.
